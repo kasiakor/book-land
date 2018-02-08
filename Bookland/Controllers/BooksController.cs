@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Bookland.Models;
+using Bookland.ViewModels;
 
 namespace Bookland.Controllers
 {
@@ -12,9 +13,20 @@ namespace Bookland.Controllers
         // GET: Books/Random
         public ActionResult Random()
         {
-            var book = new Book() { Name = "Eleni" };
+            var book = new Book() { Name = "Eleni", Id = 1 };
+            var authors = new List<Author>
+            {
+                new Author { Name = "Author 1"},
+                new Author { Name = "Author 2"}
+            };
 
-            return View(book);
+            var viewModel = new RandomBookViewModel
+            {
+                Book = book,
+                Authors = authors
+            };
+
+            return View(viewModel);
             // return Content("Hello World!");
             // return HttpNotFound();
             // return new EmptyResult();
@@ -39,6 +51,10 @@ namespace Bookland.Controllers
 
         //    return Content(String.Format("pageIndex={0}&sortBy={1}", pageIndex, sortBy));
         //}
+
+        // applay route attribute and pass the url template
+
+        [Route("books/released/{year}/{month:regex(\\d{2})}:range(1,12)")]
 
         public ActionResult ByReadDate(int year, int month)
         {

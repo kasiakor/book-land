@@ -1,8 +1,30 @@
-﻿@model Bookland.Models.Book
+﻿@model Bookland.ViewModels.RandomBookViewModel
 @{
     ViewBag.Title = "Random";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>@Model.Name</h2>
+@{ 
+    var className = Model.Authors.Count > 1 ? "favourite" : null;
+}
 
+@*
+    if className is null it will not be rendered in the final HTML
+
+*@
+
+<h2 class="@className">@Model.Book.Name</h2>
+
+@if (Model.Authors.Count == 0)
+{
+    <p>I have not read any book of this author</p>
+}
+else
+{
+    <ul>
+        @foreach (var author in Model.Authors)
+        {
+            <li>@author.Name</li>
+        }
+    </ul>
+}

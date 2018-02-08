@@ -13,14 +13,7 @@ namespace Bookland
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                //name
-                "BooksByReadDate",
-                //url
-                "books/read/{year}/{month}",
-                //default
-                new { controller = "Books", action = "ByReadDate" },
-                new { year = @"\d{4}", month = @"\d{2}"});
+            routes.MapMvcAttributeRoutes();
 
             routes.MapRoute(
                 name: "Default",
