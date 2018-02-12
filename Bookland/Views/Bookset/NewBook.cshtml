@@ -1,0 +1,52 @@
+﻿@model Bookland.Models.Bookset
+
+<div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">
+                Add a New Book
+            </h1>
+        </div>
+    </div>
+
+    @using (Html.BeginForm("NewBook", "Bookset", FormMethod.Post))
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(x => x.AuthorsFirstName, "Author's First Name")
+                    @Html.TextBoxFor(x => x.AuthorsFirstName, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.AuthorsLastName, "Author's Last Name")
+                    @Html.TextBoxFor(x => x.AuthorsLastName, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Title, "Title")
+                    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Genre, "Genre")
+                    @{ 
+                        var Genre = new List<SelectListItem>()
+                        {
+                            new SelectListItem() { Text = "Drama" },
+                            new SelectListItem() { Text = "Biography" },
+                            new SelectListItem() { Text = "Family Saga" },
+                            new SelectListItem() { Text = "Travel" },
+                            new SelectListItem() { Text = "Adventure" },
+                            new SelectListItem() { Text = "Romance" }
+
+                        };
+                    }
+                    @Html.DropDownListFor(x => x.Genre, Genre, new { @class = "form-control"})
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Language, "Language")
+                    @Html.RadioButtonFor(x => x.Language, "English")@Html.Label("English")
+                    @Html.RadioButtonFor(x => x.Language, "Polish")@Html.Label("Polish")
+                </div>
+            </div>
+        </div>
+    }
+</div>
