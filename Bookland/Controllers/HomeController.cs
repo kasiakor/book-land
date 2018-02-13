@@ -22,10 +22,15 @@ namespace Bookland.Controllers
 
         public ActionResult About(int? id)
         {
+            //if (id.HasValue)
+            //    ViewData["id"] = id.Value;
+            //else
+            //    ViewData["id"] = 0;
+
             if (id.HasValue)
-                ViewData["id"] = id.Value;
+                ViewBag.Id = id.Value;
             else
-                ViewData["id"] = 0;
+                ViewBag.Id = 0;
             return View();
         }
 
