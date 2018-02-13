@@ -11,7 +11,7 @@ namespace Bookland.Controllers
         public ActionResult Index()
 
         {
-            ViewData["CurrentTime"] = DateTime.Now.ToString();
+            ViewBag.CurrentDateAndTime = DateTime.Now;
             return View();
         }
 
