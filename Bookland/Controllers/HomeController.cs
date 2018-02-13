@@ -9,7 +9,9 @@ namespace Bookland.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
+
         {
+            ViewData["CurrentTime"] = DateTime.Now.ToString();
             return View();
         }
 

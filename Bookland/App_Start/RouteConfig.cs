@@ -13,6 +13,24 @@ namespace Bookland
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute(
+                name: "Home",
+                url: "Home",
+                defaults: new { controller = "Home", action = "GoToHome", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
+                name: "Home1",
+                url: "Home/Home",
+                defaults: new { controller = "Home", action = "GoToHome", id = UrlParameter.Optional }
+            );
+
+            routes.MapRoute(
+              name: "Home2",
+              url: "",
+              defaults: new { controller = "Home", action = "GoToHome", id = UrlParameter.Optional }
+          );
+
             routes.MapMvcAttributeRoutes();
 
             routes.MapRoute(
