@@ -15,7 +15,7 @@ namespace Bookland.Controllers
 
         public ActionResult GoToHome ()
         {
-            return View("MyHomePage");
+            return View();
         }
 
         public ActionResult About()
