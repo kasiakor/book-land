@@ -13,6 +13,11 @@ namespace Bookland.Controllers
             return View();
         }
 
+        public ActionResult GoToHome ()
+        {
+            return View("MyHomePage");
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
