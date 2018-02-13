@@ -20,10 +20,12 @@ namespace Bookland.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult About(int? id)
         {
-            ViewBag.Message = "Message from the Controller";
-
+            if (id.HasValue)
+                ViewData["id"] = id.Value;
+            else
+                ViewData["id"] = 0;
             return View();
         }
 
