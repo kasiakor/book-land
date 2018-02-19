@@ -14,12 +14,12 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    @Html.LabelFor(x => x.AuthorsFirstName, "Author's First Name")
-                    @Html.TextBoxFor(x => x.AuthorsFirstName, new { @class = "form-control" })
+                    @Html.LabelFor(x => x.ID, "ID")
+                    @Html.TextBoxFor(x => x.ID, new { @class = "form-control" })
                 </div>
                 <div class="form-group">
-                    @Html.LabelFor(x => x.AuthorsLastName, "Author's Last Name")
-                    @Html.TextBoxFor(x => x.AuthorsLastName, new { @class = "form-control" })
+                    @Html.LabelFor(x => x.Author, "Author")
+                    @Html.TextBoxFor(x => x.Author, new { @class = "form-control" })
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(x => x.Title, "Title")
@@ -43,8 +43,18 @@
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(x => x.Language, "Language")
-                    @Html.RadioButtonFor(x => x.Language, "English")@Html.Label("English")
-                    @Html.RadioButtonFor(x => x.Language, "Polish")@Html.Label("Polish")
+                </div>
+                <div class="form-group">
+                    @Html.RadioButtonFor(x => x.Language, "English")English
+                    @Html.RadioButtonFor(x => x.Language, "Polish")Polish
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Price, "Price")
+                    @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(x => x.Description, "Description")
+                    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
                 </div>
             </div>
         </div>
