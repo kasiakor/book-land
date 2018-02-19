@@ -13,6 +13,7 @@ namespace Bookland.Models
         public string Genre { get; set; }
         public string Language { get; set; }
         public int Price { get; set; }
+        public DateTime PublishDate { get; set; }
         public string Description { get; set; }
 
     }

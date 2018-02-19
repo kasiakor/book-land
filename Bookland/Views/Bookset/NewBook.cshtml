@@ -53,6 +53,10 @@
                     @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
                 </div>
                 <div class="form-group">
+                    @Html.LabelFor(x => x.PublishDate, "Date of publication")
+                    @Html.TextBoxFor(x => x.PublishDate, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
                     @Html.LabelFor(x => x.Description, "Description")
                     @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
                 </div>
@@ -60,3 +64,13 @@
         </div>
     }
 </div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#PublishDate").datetimepicker ({
+            format: "DD/MM/YYYY"
+        }).on("dp.change", function (e) {
+            $(this).data("DateTimePicker").hide();   
+        });
+    });
+</script>
