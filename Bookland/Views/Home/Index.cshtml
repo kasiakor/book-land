@@ -14,9 +14,9 @@
     <div id="bookListDiv">
         @{Html.RenderAction("BookList", "Home", new { Model = Model });}
     </div>
-    @*<div id="loadingDiv" style="text-align: center; display: none; margin-bottom: 20px;">
-            <img alt="Loading" src="@Url.Content("~/Content/Images/ajax-loader.gif")" />
-        </div>*@
+    <div id="loadingDiv" style="text-align: center; display: none; margin-bottom: 20px;">
+            <img alt="Loading" src="@Url.Content("~/Content/img/ajax-loader.gif")" />
+        </div>
 
     <script src="@Url.Content("~/Scripts/jquery-1.8.2.min.js")" type="text/javascript"></script>
     <script type="text/javascript">
