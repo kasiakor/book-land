@@ -6,7 +6,7 @@ using System.Xml.Linq;
 
 namespace Bookland.Models
 {
-    public static class DataManager
+    public class DataManager
     {
         /// <summary>
         /// Returns one block of book items

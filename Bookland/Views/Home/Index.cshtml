@@ -1,28 +1,44 @@
-﻿@{
-    ViewBag.Title = "Home";
-}
+﻿@model List<Bookland.Models.Bookset>
+    @{
+        ViewBag.Title = "bookland library";
+    }
 
-<div class="jumbotron">
-    <h1>The current date and time is @ViewBag.CurrentDateAndTime</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+    <meta name="author" content="kasiakor" />
 
-<div class="row">
-    <div class="col-md-4">
-        <form action="/" method="post">
-            Name: <input type="text" name="personName" />
-            <input type="submit" name="btnSubmit" value="Click me" />
-        </form>
+    <link href="@Url.Content("~/Content/site.css")" rel="stylesheet" type="text/css" />
+
+    <h2>MY BOOKLAND LIBRARY</h2>
+
+    <div style="margin-bottom: 50px;">Book List</div>
+
+    <div id="bookListDiv">
+        @{Html.RenderAction("BookList", "Home", new { Model = Model });}
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+    @*<div id="loadingDiv" style="text-align: center; display: none; margin-bottom: 20px;">
+            <img alt="Loading" src="@Url.Content("~/Content/Images/ajax-loader.gif")" />
+        </div>*@
+
+    <script src="@Url.Content("~/Scripts/jquery-1.8.2.min.js")" type="text/javascript"></script>
+    <script type="text/javascript">
+        var BlockNumber = 2;  //Infinate Scroll starts from second block
+        var NoMoreData = false;
+        var inProgress = false;
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() == $(document).height() - $(window).height() && !NoMoreData && !inProgress) {
+
+                inProgress = true;
+                $("#loadingDiv").show();
+
+                $.post("@Url.Action("InfinateScroll", "Home")", { "BlockNumber": BlockNumber },
+                        function (data) {
+
+                            BlockNumber = BlockNumber + 1;
+                            NoMoreData = data.NoMoreData;
+                            $("#bookListDiv").append(data.HTMLString);
+                            $("#loadingDiv").hide();
+                            inProgress = false;
+                        });
+            }
+        });
+    </script>
