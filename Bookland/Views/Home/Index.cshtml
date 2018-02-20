@@ -14,7 +14,7 @@
     <div id="bookListDiv">
         @{Html.RenderAction("BookList", "Home", new { Model = Model });}
     </div>
-    <div id="loadingDiv" style="text-align: center; display: none; margin-bottom: 20px;">
+    <div id="loadingDiv" style="text-align: center; margin-bottom: 20px;">
             <img alt="Loading" src="@Url.Content("~/Content/img/ajax-loader.gif")" />
         </div>
 
