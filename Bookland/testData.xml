@@ -1,156 +1,169 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <catalog>
   <book id="bk101">
-    <author>Gambardella, Matthew</author>
-    <title>XML Developer's Guide</title>
-    <genre>Computer</genre>
-    <price>44.95</price>
+    <author>Allan, Ted</author>
+    <title>The Scalpel, the Sword: The Story of Doctor Norman Bethune</title>
+    <genre>Biography</genre>
+    <price>15.99</price>
     <language>English</language>
-    <publish_date>2000-10-01</publish_date>
+    <publish_date>2009-05-11</publish_date>
     <description>
-      An in-depth look at creating applications
-      with XML.
+      The book celebrates the turbulent career of Dr. Norman Bethune (1890-1939), a brilliant surgeon,
+      campaigner against private medicine, communist, and graphic artist. Bethune introduced innovative techniques in
+      treating battlefield injuries and pioneered the use of blood transfusions to save lives, which made him a legend
+      first in Spain during the civil war and later in China when he served with the armies of Mao Zedong in their fight
+      against the invading Japanese. He is today remembered amongst the pantheon of Chinese revolutionary heroes.
     </description>
   </book>
   <book id="bk102">
-    <author>Ralls, Kim</author>
-    <title>Midnight Rain</title>
-    <genre>Fantasy</genre>
-    <price>5.95</price>
+    <author>Hislop, Victoria</author>
+    <title>The island</title>
+    <genre>Family Saga</genre>
+    <price>6.11</price>
     <language>English</language>
-    <publish_date>2000-12-16</publish_date>
+    <publish_date>2006-04-10</publish_date>
     <description>
-      A former architect battles corporate zombies,
-      an evil sorceress, and her own childhood to become queen
-      of the world.
+      Set on the island of Spinalonga, the lepper colony, off the coast of Crete, and on the village of Plaka which lies
+      within swimming distance across the bay from it, it is a richly enchanting novel of lives and loves unfolding
+      against the backdrop of the Mediterranean during World War II.
     </description>
   </book>
   <book id="bk103">
-    <author>Corets, Eva</author>
-    <title>Maeve Ascendant</title>
-    <genre>Fantasy</genre>
-    <price>5.95</price>
+    <author>Essinger, James</author>
+    <title>Ada's Algorithm: How Lord Byron's Daughter Ada Lovelace Launched the Digital Age</title>
+    <genre>Biography</genre>
+    <price>13.20</price>
     <language>English</language>
-    <publish_date>2000-11-17</publish_date>
+    <publish_date>2000-10-29</publish_date>
     <description>
-      After the collapse of a nanotechnology
-      society in England, the young survivors lay the
-      foundation for a new society.
+      Through the infamous divorce of her parents, Ada Lovelace became the most talked-about child in Georgian Britain.
+      This riveting biography tells the extraordinary yet little known story of her life and times when mathematics was
+      as fashionable as knitting among women and Ada became the world's first computer programmer. But for her era's
+      view on gender, Ada would single-handedly have started the digital age more than two centuries ago.
     </description>
   </book>
   <book id="bk104">
-    <author>Corets, Eva</author>
-    <title>Oberon's Legacy</title>
-    <genre>Fantasy</genre>
-    <price>5.95</price>
+    <author>Sheldrick, Daphne</author>
+    <title>An African Love Story: Love, Life and Elephants</title>
+    <genre>Memoir</genre>
+    <price>8.99</price>
     <language>English</language>
-    <publish_date>2001-03-10</publish_date>
+    <publish_date>2013-01-03</publish_date>
     <description>
-      In post-apocalypse England, the mysterious
-      agent known only as Oberon helps to create a new life
-      for the inhabitants of London. Sequel to Maeve
-      Ascendant.
+      The extraordinary love story which blossomed when Daphne fell head over heels with Tsavo Game Park and its famous
+      warden, David Sheldrick. They devoted their lives to saving elephant orphans, at first losing every infant under
+      the age of two until Daphne at last managed to devise the first-ever milk formula which would keep them alive.
     </description>
   </book>
   <book id="bk105">
-    <author>Corets, Eva</author>
-    <title>The Sundered Grail</title>
-    <genre>Fantasy</genre>
-    <price>5.95</price>
+    <author>Lianke, Yan</author>
+    <title>Dream of Ding Village by Yan Lianke</title>
+    <genre>Drama</genre>
+    <price>23.21</price>
     <language>English</language>
-    <publish_date>2001-09-10</publish_date>
+    <publish_date>20012-04-03</publish_date>
     <description>
-      The two daughters of Maeve, half-sisters,
-      battle one another for control of England. Sequel to
-      Oberon's Legacy.
+      It is a story based on the blood sales in rural Henan province that sparked a major AIDS crisis in China.
+      After the first edition sold out, it was banned—no more copies can be printed in China.
     </description>
   </book>
   <book id="bk106">
-    <author>Randall, Cynthia</author>
-    <title>Lover Birds</title>
-    <genre>Romance</genre>
-    <price>4.95</price>
+    <author>Davidson, Robyn</author>
+    <title>Tracks</title>
+    <genre>Memoir</genre>
+    <price>3.92</price>
     <language>English</language>
-    <publish_date>2000-09-02</publish_date>
+    <publish_date>2013-04-11</publish_date>
     <description>
-      When Carla meets Paul at an ornithology
-      conference, tempers fly as feathers get ruffled.
+      Brilliantly written and frequently hilarious account of a young woman's odyssey through the deserts of Australia,
+      with no one but her dog and four camels as companions. Davidson emerges as a heroine who combines extraordinary
+      courage with exquisite sensitivity.
     </description>
   </book>
   <book id="bk107">
-    <author>Thurman, Paula</author>
-    <title>Splish Splash</title>
-    <genre>Romance</genre>
-    <price>4.95</price>
+    <author>Worth, Jennifer</author>
+    <title>Call the Midwife</title>
+    <genre>Memoir</genre>
+    <price>44.95</price>
     <language>English</language>
-    <publish_date>2000-11-02</publish_date>
+    <publish_date>2012-01-05</publish_date>
     <description>
-      A deep sea diver finds true love twenty
-      thousand leagues beneath the sea.
+      Jennifer Worth was a nurse, midwife, ward sister and night sister from 1953 until 1973,
+      working mainly in London. Music had always been her passion, and in 1973 she left nursing in order
+      to study music intensively, teaching piano and singing for about twenty-five years. All Jennifer’s books
+      have been bestsellers and Call the Midwife is now a major BBC TV adaptation.
     </description>
   </book>
   <book id="bk108">
-    <author>Knorr, Stefan</author>
-    <title>Creepy Crawlies</title>
-    <genre>Horror</genre>
-    <price>4.95</price>
+    <author>Smith, Tom Rob</author>
+    <title>Child 44</title>
+    <genre>Mistery</genre>
+    <price>6.49</price>
     <language>English</language>
-    <publish_date>2000-12-06</publish_date>
+    <publish_date>2011-04-28</publish_date>
     <description>
-      An anthology of horror stories about roaches,
-      centipedes, scorpions  and other insects.
+      The novel takes inspiration from the crimes of Andrei Chikatilo, also known as the Rostov Ripper,
+      the Butcher of Rostov, and the Red Ripper. Chikatilo was convicted of and executed for committing 52 murders in
+      the Soviet Union, though his crimes occurred after the Stalin era. In addition to highlighting the problem of
+      Soviet-era criminality in a state where "there is no crime", the novel explores the paranoia of the age, the
+      education system, the secret police apparatus, orphanages, homosexuality in the USSR, and mental hospitals.
     </description>
   </book>
   <book id="bk109">
-    <author>Kress, Peter</author>
-    <title>Paradox Lost</title>
-    <genre>Science Fiction</genre>
-    <price>6.95</price>
+    <author>O'Flaherty, Liam</author>
+    <title>Famine</title>
+    <genre>Family Saga</genre>
+    <price>5.45</price>
     <language>English</language>
-    <publish_date>2000-11-02</publish_date>
+    <publish_date>2004-02-17</publish_date>
     <description>
-      After an inadvertant trip through a Heisenberg
-      Uncertainty Device, James Salway discovers the problems
-      of being quantum.
+      Set in the fictionally named Black Valley in the west of Ireland (there is an actual Black Valley in Kerry)
+      during the Great Famine of the 1840s, the novel tells the story of three generations of the Kilmartin family.
+      The novel is scarifying about the constitutional politics of Daniel O'Connell, seen as laying the oppressed
+      Irish of the 19th century open to the famine that would destroy their society.
     </description>
   </book>
   <book id="bk110">
-    <author>O'Brien, Tim</author>
-    <title>Microsoft .NET: The Programming Bible</title>
-    <genre>Computer</genre>
-    <price>36.95</price>
-    <language>English</language>
-    <publish_date>2000-12-09</publish_date>
+    <author>McCullough, Colleen</author>
+    <title>Morgan's Run</title>
+    <genre>Adventure</genre>
+    <price>7.17</price>
+    <language>Polish</language>
+    <publish_date>2012-02-29</publish_date>
     <description>
-      Microsoft's .NET initiative is explored in
-      detail in this deep programmer's reference.
+      It is a historical novel about the life of an English prisoner driven to the first penal colonies in Australia in
+      the 18th century. Much of the novel is set in the penal colony on Norfolk Island. It starts off with the
+      prisoner's life in Bristol, England and describes in detail his survival of the transportation on a prison ship
+      to Norfolk Island and how he dared to hope in the hard life of a convict.
     </description>
   </book>
   <book id="bk111">
-    <author>O'Brien, Tim</author>
-    <title>MSXML3: A Comprehensive Guide</title>
-    <genre>Computer</genre>
-    <price>36.95</price>
+    <author>Simons, Paullina</author>
+    <title>The Bronze Horseman</title>
+    <genre>Family Saga</genre>
+    <price>5.45</price>
     <language>English</language>
-    <publish_date>2000-12-01</publish_date>
+    <publish_date>2008-09-01</publish_date>
     <description>
-      The Microsoft MSXML3 parser is covered in
-      detail, with attention to XML DOM interfaces, XSLT processing,
-      SAX and more.
+      Leningrad 1941: the white nights of summer illuminate a city of fallen grandeur whose palaces and avenues speak
+      of a different age, when Leningrad was known as St Petersburg. Two sisters, Tatiana and Dasha, share the same
+      bed,living in one room with their brother and parents.The routine of their hard impoverished life is shattered on
+      22 June 1941 when Hitler invades Russia. For the Metanov family, for Leningrad and particularly for Tatiana, life
+      will never be the same again. On that fateful day, Tatiana meets a brash young man named Alexander.
     </description>
   </book>
   <book id="bk112">
-    <author>Galos, Mike</author>
-    <title>Visual Studio 7: A Comprehensive Guide</title>
-    <genre>Computer</genre>
-    <price>49.95</price>
-    <language>English</language>
-    <publish_date>2001-04-16</publish_date>
+    <author>Saint-Bris, Gonzague</author>
+    <title>Les Vieillards de Brighton / Starcy z Brighton</title>
+    <genre>Memoir</genre>
+    <price>1.00</price>
+    <language>Polish</language>
+    <publish_date>2002-05-02</publish_date>
     <description>
-      Microsoft Visual Studio 7 is explored in depth,
-      looking at how Visual Basic, Visual C++, C#, and ASP+ are
-      integrated into a comprehensive development
-      environment.
+      A five-year-old son of a French diplomat is placed in a nursing home in English Brighton. The boy, the only child
+      in the area, begins to lead the old man's lifestyle. His only pastimes are the stories of the residents: the
+      unappreciated writer Big Billy, the aristocrat Lady Beckford, the General, a former spy of special services,
+      and courtesan, Frida.
     </description>
   </book>
 </catalog>
