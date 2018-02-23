@@ -2,13 +2,13 @@
 
 @foreach (var item in Model)
 {
-    <div style="height: 300px; background-color: #F3F3F3; margin-bottom: 30px;">
-        <div style="padding: 30px; font-size: 25px; color: #7b4f9d">@item.Title</div>
-        <div style="padding-left: 30px; font-size: 18px;">Author: @item.Author</div>
-        <div style="padding-left: 30px; font-size: 18px;">Genre: @item.Genre</div>
-        <div style="padding-left: 30px; font-size: 18px;">Price: @item.Price £</div>
-        <div style="padding-left: 30px; font-size: 18px;">Language: @item.Language</div>
-        <div style="padding-left: 30px; font-size: 18px;">Publish Date: @item.PublishDate</div>
-        <div style="padding-left: 30px; padding-right: 30px; font-size: 18px;">Description: @item.Description</div>
+    <div style="background-color: #F3F3F3; padding-bottom: 30px; margin-bottom: 30px;">
+        <div style="padding: 30px; font-size: 23px; color: #6d5c5c;">@item.Title</div>
+        <div style="padding-left: 30px; font-size: 18px;"><span style="font-weight: bold; color:#6b8a3d;">Author</span>: @item.Author</div>
+        <div style="padding-left: 30px; font-size: 18px;"><span style="font-weight: bold; color:#6b8a3d;">Genre</span>: @item.Genre</div>
+        <div style="padding-left: 30px; font-size: 18px;"><span style="font-weight: bold; color:#6b8a3d;">Price</span>: @item.Price £</div>
+        <div style="padding-left: 30px; font-size: 18px;"><span style="font-weight: bold; color:#6b8a3d;">Language</span>: @item.Language</div>
+        <div style="padding-left: 30px; font-size: 18px;"><span style="font-weight: bold; color:#6b8a3d;">Publish Date</span>: @item.PublishDate</div>
+        <div style="padding-left: 30px; padding-right: 30px; font-size: 18px;"><span style="font-weight: bold; color:#6b8a3d;">Description</span>: @item.Description</div>
     </div>
 }
