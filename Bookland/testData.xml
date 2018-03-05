@@ -166,4 +166,15 @@
       and courtesan, Frida.
     </description>
   </book>
+ <book id="bk113">
+    <author>Paull, Laline</author>
+    <title>The Bees</title>
+    <genre>Fiction</genre>
+    <price>6.48</price>
+    <language>English</language>
+    <publish_date>2014-05-08</publish_date>
+    <description>
+      This thrilling debut novel is set entirely within a beehive.Born into the lowest class of her society, Flora 717 is a sanitation bee, only fit to clean her orchard hive. Living to accept, obey and serve, she is prepared to sacrifice everything for her beloved holy mother, the Queen.
+    </description>
+  </book>
 </catalog>
