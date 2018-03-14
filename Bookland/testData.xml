@@ -177,4 +177,16 @@
       This thrilling debut novel is set entirely within a beehive.Born into the lowest class of her society, Flora 717 is a sanitation bee, only fit to clean her orchard hive. Living to accept, obey and serve, she is prepared to sacrifice everything for her beloved holy mother, the Queen.
     </description>
   </book>
+  <book id="bk114">
+    <author>Hislop, Victoria</author>
+    <title>The Thread</title>
+    <genre>Family Saga</genre>
+    <price>6.99</price>
+    <language>English</language>
+    <publish_date>2012-05-24</publish_date>
+    <description>
+      The story spans almost a century, beginning  with the Great Thessaloniki Fire of 1917 which almost destroyed the city, burning for almost two days and razing 9,500 houses.
+      Thessaloniki, 2007. A young Anglo-Greek hears the life story of his grandparents for the first time. For many decades, they have looked after the memories and treasures of people who have been forcibly driven from their beloved city. Should he become their new custodian?
+    </description>
+  </book>
 </catalog>
